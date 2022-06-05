@@ -1,0 +1,22 @@
+{
+  "name": "static-job-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --experimental-json-modules ./dist/server.js",
+    "start:type": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.36",
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
